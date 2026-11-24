@@ -1,0 +1,26 @@
+# Secrets & local configuration (NEVER commit)
+.env
+.env.*
+!.env.example
+
+# Local metadata cache & personal exported library
+cache.db
+cache.db-wal
+cache.db-shm
+*.db
+*.sqlite
+*.sqlite3
+output/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.log
